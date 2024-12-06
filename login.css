@@ -1,0 +1,95 @@
+/* Body styling with gradient */
+body {
+    background: linear-gradient(to right, #454444, #e4e0cb); /* Red to Gold gradient */
+    height: 100vh; /* Ensures the gradient covers the full viewport height */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+
+
+/* Login container styling */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Logo section */
+.logo-section {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    padding: 30px;
+}
+
+.logo {
+    width: 200px; /* Adjust logo size */
+    max-width: 100%;
+}
+
+/* Form section */
+.form-section {
+    padding: 40px;
+}
+
+.login-box {
+    color: #fff;
+}
+
+.login-box h3 {
+    color: #f1f1f1; /* Light contrast for subtitles */
+    margin-bottom: 20px;
+}
+
+.login-box .form-group label {
+    color: #ffd700; /* Gold for labels */
+}
+
+.login-box .form-control {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.login-box .form-control:focus {
+    box-shadow: 0 0 5px #ff5733;
+    border-color: #ff5733;
+}
+
+.login-box button {
+    background: linear-gradient(90deg, #ff5733, #c70039);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.login-box button:hover {
+    background: linear-gradient(90deg, #c70039, #ff5733);
+}
+
+.login-box .text-center a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-box .text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+
+    .logo-section {
+        display: none; /* Hide logo section on smaller screens */
+    }
+}
+

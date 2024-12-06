@@ -1,0 +1,100 @@
+/* Navbar gradient background */
+.navbar-gradient {
+    background: linear-gradient(to right, #cd4e4c, #42d475);
+  }
+  
+  .navbar-brand {
+    font-family: 'Poppins'; /* Change the font here */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+  .logo {
+    width: 40px; 
+    height: auto; 
+    margin-left: 15px; 
+  }
+
+  
+  /* Inventory Styles */
+  
+  /* Fixed Sidebar */
+/* Sidebar Styling */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+}
+
+.sidebar .nav-item {
+    padding: 10px;
+}
+
+.sidebar .nav-link {
+    color: white;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #ebf48c7a;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    font-size: 12px;
+}
+
+/* Main Content Styling */
+main {
+    margin-left: 250px; /* Make space for the sidebar */
+    padding-top: 20px;
+}
+
+h5, p {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Table Styling */
+.table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+
+
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    main {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+}
