@@ -1,10 +1,12 @@
-/* Body styling with gradient */
 body {
-    background: linear-gradient(to right, #454444, #e4e0cb); /* Red to Gold gradient */
-    height: 100vh; /* Ensures the gradient covers the full viewport height */
+    background-image: url('/assets/samg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    color: #fff;
 }
 
 
@@ -19,7 +21,7 @@ body {
 
 /* Logo section */
 .logo-section {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.368); /* Semi-transparent background */
     padding: 30px;
 }
 
